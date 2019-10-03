@@ -8,5 +8,5 @@ class BaiduSpider(scrapy.Spider):
     start_urls = ['http://www.baidu.com/']
 
     def parse(self, response):
-        response.xpath()
+        print(response)
         pass
